@@ -1,0 +1,64 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light grey background */
+}
+header {
+    background-color: #007bff; /* Blue header background */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+header h1 {
+    margin: 0; /* Remove default margin */
+}
+nav {
+    margin-top: 10px; /* Add spacing between header and navigation */
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #007bff; /* Blue footer background */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    margin: 0; /* Remove default margin */
+}
+.doctor-profile {
+    text-align: center; /* Center align doctor profiles */
+    margin-bottom: 30px; /* Add spacing between doctor profiles */
+}
+.doctor-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 10px; /* Add spacing between image and text */
+}
+h2 {
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center the text */
+    flex-grow: 1; /* Allow the hospital name to take up remaining space */
+}
